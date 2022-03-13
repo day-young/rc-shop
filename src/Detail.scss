@@ -1,0 +1,51 @@
+$메인컬러: #ff0000;
+
+.wow-enter {
+  opacity: 0;
+}
+
+.wow-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+}
+
+.red {
+  color: $메인컬러;
+}
+
+@mixin 함수() {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.my-alert {
+  @include 함수();
+}
+
+.my-alert-red {
+  @extend .my-alert;
+  background: #fff2f2;
+}
+
+.my-alert p {
+  margin-bottom: 0;
+}
+// div.container h4 {
+//  ~~
+// }
+
+// div.container p {
+// ~~
+// }
+// 👇 sass nesting
+// div.container {
+//   h4 {
+//     color: blue;
+//   }
+
+//   p {
+//     color: gray;
+//   }
+// }

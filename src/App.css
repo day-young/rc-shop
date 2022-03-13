@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(./bg.jpg);
+  background-position: 0% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  height: 500px;
+}
+
+.shop-title {
+  font-size: 100px;
+  text-shadow: none;
+  padding-top: 100px;
+  color: #d8ff00;
+  font-weight: 600;
+}
+
+.jumbotron p {
+  margin-top: 100px;
+  text-shadow: none;
+}
+
+.btn-main {
+  color: white;
+}
+
+.btn-link:hover {
+  color: #d8ff00;
+}
+
+.btn-more {
+  color: #0d6efd;
+}
+.img-product {
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
